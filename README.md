@@ -7,7 +7,6 @@ This is a **Next.js** e-commerce project that utilizes APIs for cart management,
 - **Cart Management**: Fetch, add, and remove products from the cart via API calls.
 - **User Authentication**: Secure login and user session management.
 - **Real-Time Updates**: The cart updates dynamically using API responses.
-- *
 
 ## Tech Stack
 
@@ -17,14 +16,6 @@ This is a **Next.js** e-commerce project that utilizes APIs for cart management,
 - **TypeScript**
 - **Tailwind CSS** for styling
 - **Material-UI** for UI components
-
-### Backend
-
-- **Ruby on Rails**
-- **PostgreSQL** (Database)
-- **Action Cable** (WebSockets for real-time communication)
-- **Geocoder Gem** (For location services)
-- **Firebase Cloud Messaging (FCM)** (Push notifications)
 
 ## Getting Started
 
@@ -77,16 +68,6 @@ The frontend interacts with the Rails backend through these endpoints:
 - `POST /cart` - Add a product to the cart
 - `DELETE /cart/:id` - Remove a product from the cart
 
-### Ride APIs
-
-- `POST /rides` - Create a new ride
-- `GET /rides/history` - Fetch ride history
-- `GET /rides/:id` - Fetch ride details
-
-### Notifications
-
-- Uses **Firebase Cloud Messaging (FCM)** for push notifications.
-
 ## Deployment
 
 Deploy the frontend using **Vercel**:
@@ -95,11 +76,6 @@ Deploy the frontend using **Vercel**:
 npm run build
 vercel deploy
 ```
-
-Deploy the backend using **Heroku**:
-
-```bash
-git push heroku main
 ```
 
 ## Learn More
